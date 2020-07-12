@@ -12,6 +12,9 @@
 
 var startingValue = 5;
 
+var multiplySv = multiply(startingValue, 2);
+var result = add (multiplySv, 10);
+
 /* DO NOT EDIT BELOW THIS LINE */
 /* --------------------------- */
 

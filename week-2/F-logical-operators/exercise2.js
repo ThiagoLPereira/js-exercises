@@ -4,8 +4,32 @@
   This program calls some functions that are either missing or incomplete.
   Update the code so that you get the expected result.
 */
+var num10 = 10;
+var name = "Daniel";
 
-function isNegative() {}
+function isNegative(num) {
+  if (num < 0) {
+    return true;
+  }
+  return false;
+}
+function isBetween5and10(num) {
+  if (num >= 5) {
+    return true;
+  }
+  return false;
+}
+function isShortName(num) {
+  if (num.length < 10) {
+    return true;
+  }
+  return false;
+}
+function startsWithD(num) {
+  if (num.indexOf("D")) {
+    return "D";
+  }
+}
 
 /* 
   DO NOT EDIT BELOW THIS LINE

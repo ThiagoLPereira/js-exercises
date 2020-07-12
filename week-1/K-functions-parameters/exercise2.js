@@ -1,5 +1,7 @@
 // Declare your function first
-
-var result = divide(3, 4);
+function divides(num3, num4) {
+  return num3 / num4;
+}
+var result = divides(3, 4);
 
 console.log(result);

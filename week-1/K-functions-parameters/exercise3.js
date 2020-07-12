@@ -1,5 +1,7 @@
 // Write your function here
-
-var greeting = createGreeting("Daniel");
+function LongString(name) {
+  return "Hello, my name is" + name;
+}
+var greeting = LongString(" Daniel ");
 
 console.log(greeting);
